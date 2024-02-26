@@ -1,0 +1,143 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 150px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #475569;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.welcome-message {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.name {
+  color: #0b69ff;
+}
+
+.transaction-details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 2px;
+  width: 45%;
+  padding: 35px;
+  border-color: #cbd5e1;
+}
+
+.transaction-heading {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 22px;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #7e858e;
+  margin-bottom: 10px;
+}
+
+.input {
+  border-color: #cbd5e1;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 80%;
+  padding: 10px;
+}
+
+.button {
+  font-family: 'Roboto';
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 15px;
+  border-style: none;
+  border-radius: 6px;
+  height: 50px;
+  width: 70px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.transactions-history {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 2px;
+  width: 45%;
+  border-color: #cbd5e1;
+}
+
+.history {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 22px;
+}
+
+.table-container {
+  margin: 0;
+}
+
+.table {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.table-header {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbd5e1;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.table-cell {
+  font-family: 'Roboto';
+  width: 120px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+}
